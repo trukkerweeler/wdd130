@@ -1,0 +1,20 @@
+body{
+    background-color: lightgrey;
+    max-width: 1600px;
+}
+
+img{
+    width: 100%;
+}
+
+.triple{
+    border-radius: 50%;
+    border-width: 10px;
+    border-style: solid;
+    border-color: darkgrey;
+    padding: 0%;
+    width: 20%;
+    margin: 5%;
+    display: inline;
+}
+
