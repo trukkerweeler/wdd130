@@ -11,9 +11,13 @@
 }
 nav a{
     text-align: center;
-    color: darkred;
+    /*color: darkred;*/    
+    /*color: #ebdccb;*/
+    color: silver;
     text-decoration: none;
     padding: 35px;
+    font-size: xx-large;
+    font-weight: bold;
 }
 nav a:hover {
     background-color: black;
@@ -51,7 +55,7 @@ nav a:hover {
     text-align: center;
 }
 
-/*Main grid=======================================*/
+/*Main grid===================================================================*/
 .home-grid{
     display: grid;
     grid-template-columns: repeat(10, 1fr);
@@ -106,8 +110,6 @@ main section img{
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
 }
-
-
 
 #otherdiv{
     background-color: #48639c;
@@ -179,13 +181,16 @@ footer{
     align-items: center;
 }
 footer h3 a{
-    color: #ebdccb;
+    /*color: #ebdccb;*/
+    color: silver;
 }
 footer h3{
-    color: #ebdccb;
+    /*color: #ebdccb;*/
+    color: silver;
 }
 footer a:hover{
-    color: blueviolet;
+    /*color: blueviolet;*/
+    color: aliceblue;
 }
 footer a{
     text-decoration: none;
@@ -212,8 +217,51 @@ nav{
     display: flex;
     justify-content: space-around;
 }
+/*Rivers Page================================================================*/
+.river-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+}
+.river-row{
+    padding: 30px 30px;
+    margin-right: 20px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.river-row-title{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.first-paragraph{
+    margin-top: 5px;
+}
+span{
+    border-bottom: 1px solid black;
+}
+.descriptions{
+    margin-left: 30px;
+    /*background-color: silver;*/
+}
+.subpagebanner{
+    background-color: silver;
+    /*padding-bottom: 30px;*/
+}
+.river-row p{
+    padding: 10px;
+}
+.river-row-image{
+    float: left;
+    padding: 8px;
+}
 
 
+
+
+/*Media query================================================================*/
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
