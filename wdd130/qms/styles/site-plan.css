@@ -1,17 +1,17 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-@import url('https://fonts.googleapis.com/css?family=Brush+Script+MT|Tahoma');
+@import url('https://fonts.googleapis.com/css?family=Helvetica|Tahoma');
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #48639c   ;
-  --secondary-color: #faf8d4 ;  
+  --primary-color: #faf8d4;
+  --secondary-color: #48639c ;  
   --accent1-color: #b2a3b5;
   --accent2-color: #ebdccb;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Brush Script MT";
+  --heading-font: "Helvetica";
   --paragraph-font: Tahoma, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
