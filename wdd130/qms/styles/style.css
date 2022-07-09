@@ -37,6 +37,9 @@ header h2{
     height: 25px;
     grid-column: 1/6;
 }
+#navbanner nav a{
+    vertical-align: middle;
+}
 #processes{
     grid-column: 1/2;
     grid-row: 4/5;
@@ -62,6 +65,7 @@ li{
     float: right;
     border-radius: 15px;
 }
+
 footer{
     grid-column: 1/6;
     grid-row: 5/6;
@@ -71,7 +75,14 @@ footer{
 nav a{
     font-weight: bold;
     color: silver;
+    
 }
 nav a:hover{
     color: black;
+}
+footer nav a{
+    vertical-align: middle;
+}
+.coloredlistitem{
+    color: darkslategray;
 }
