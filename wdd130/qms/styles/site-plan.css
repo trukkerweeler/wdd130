@@ -5,10 +5,10 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #faf8d4;
-  --secondary-color: #48639c ;  
-  --accent1-color: #b2a3b5;
-  --accent2-color: #ebdccb;
+  --primary-color: darkslategray;
+  --secondary-color: crimson ;  
+  --accent1-color: tan;
+  --accent2-color: black;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Helvetica";
