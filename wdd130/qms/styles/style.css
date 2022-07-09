@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Helvetica|Tahoma');
+
+body{
+    /*background-color: rgb(117, 109, 99);*/
+    background-color: tan;
+}
+body.content{
+    align-items: center;
+}
+.content{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 150px 40px 40px 400px 40px;
+    font-family: Helvetica, Tahoma, sans-serif;
+}
+header{
+    max-height: 200px;
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+header img{
+    max-height: 100px;
+}
+header h2{
+    font-style: italic;
+    font-size: small;
+}
+.plainbanner{
+    background-color: darkslategray;
+    height: 40px;
+    grid-column: 1/6;
+}
+#navbanner{
+    background-color: crimson;
+    height: 25px;
+    grid-column: 1/6;
+}
+#processes{
+    grid-column: 1/2;
+    grid-row: 4/5;
+    border: 1px solid black;
+    overflow: scroll;
+    background-color: silver;
+    padding: 5px;
+}
+li{
+    font-size: small;
+}
+#textarea{
+    grid-column: 2/6;
+    grid-row: 4/5;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: silver;
+    padding: 10px;
+    overflow: scroll;
+}
+#textarea img{
+    float: right;
+    border-radius: 15px;
+}
+footer{
+    grid-column: 1/6;
+    grid-row: 5/6;
+    background-color: crimson;
+    height: 25px;
+}
+nav a{
+    font-weight: bold;
+    color: silver;
+}
+nav a:hover{
+    color: black;
+}

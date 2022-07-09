@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Tapestry&display=swap');
 
+body{
+    align-self: center;
+}
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -7,7 +10,6 @@
 #logo_link{
     padding-top: 5px;
     justify-self: center;
-    align-self: center;
 }
 nav a{
     text-align: center;
