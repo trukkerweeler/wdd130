@@ -29,20 +29,23 @@ header h2{
 }
 .plainbanner{
     background-color: darkslategray;
-    height: 40px;
+    height: 20px;
     grid-column: 1/6;
+    padding: 10px;
 }
 #navbanner{
     background-color: crimson;
-    height: 25px;
     grid-column: 1/6;
+    padding: 10px;
 }
 #navbanner nav a{
     vertical-align: middle;
+    text-decoration: none;
+    margin-right: 20px;
 }
 #processes{
     grid-column: 1/2;
-    grid-row: 4/5;
+    grid-row: 4/6;
     border: 1px solid black;
     overflow: scroll;
     background-color: silver;
@@ -53,28 +56,30 @@ li{
 }
 #textarea{
     grid-column: 2/6;
-    grid-row: 4/5;
+    grid-row: 4/6;
     border-top: 1px solid black;
     border-right: 1px solid black;
     border-bottom: 1px solid black;
     background-color: silver;
     padding: 10px;
-    overflow: scroll;
+    overflow: auto;
 }
 #textarea img{
     float: right;
-    border-radius: 15px;
+    border-radius: 40px;
+    padding: 20px;
 }
 
 footer{
     grid-column: 1/6;
-    grid-row: 5/6;
+    grid-row: 6/7;
     background-color: crimson;
-    height: 25px;
+    padding: 10px;
 }
 nav a{
     font-weight: bold;
     color: silver;
+    padding-right: 20px;;
     
 }
 nav a:hover{
